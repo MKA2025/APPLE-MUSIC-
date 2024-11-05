@@ -3,3 +3,6 @@ pyyaml
 m3u8
 yt-dlp
 pyTelegramBotAPI
+requests
+ffmpeg-python
+mutagen
