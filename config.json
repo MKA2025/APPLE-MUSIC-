@@ -1,0 +1,6 @@
+{
+    "telegram_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "cookies_path": "path/to/your/apple_music_cookies",
+    "download_path": "path/to/save/downloads",
+    "log_channel_id": "YOUR_TELEGRAM_CHANNEL_ID"
+}
