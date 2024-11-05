@@ -1,5 +1,16 @@
 import requests
 import os
+from mutagen.mp3 import MP3
+from mutagen.easyid3 import EasyID3
+
+def embed_metadata(file_path, title, artist, album):
+    audio = MP3(file_path, ID3=EasyID3)
+    audio['title'] = title
+    audio['artist'] = artist
+    audio['album'] = album
+    audio.save()
+
+
 
 def download_music(url, cookies_path, download_path):
     # This function uses Apple Music cookies to authenticate and download music
