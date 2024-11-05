@@ -1,0 +1,10 @@
+{
+  "wvd_location": "path/to/wvd",
+  "cookies_location": "path/to/cookies",
+  "disable_music_video_skip": true,
+  "prefer_hevc": false,
+  "temp_path": "path/to/temp",
+  "final_path": "path/to/final",
+  "lrc_only": false,
+  "overwrite": true
+}
